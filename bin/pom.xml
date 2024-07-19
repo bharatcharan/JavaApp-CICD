@@ -444,6 +444,12 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>${jetty-maven-plugin.version}</version>
             </plugin>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>4.0.0.1744</version>
+            </plugin>
+
 
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
